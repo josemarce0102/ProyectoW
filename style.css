@@ -1,0 +1,128 @@
+
+/*FUENTES*/
+.logo {
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 60px !important;
+    text-transform: uppercase;
+}
+
+
+.footer-font{
+    font-style: normal;
+    font-family: "Oswald", sans-serif;
+}
+
+.container{
+    height: 100vh !important;
+}
+
+.header{
+    background-color:RGB(135,155,185) ;
+}
+
+.footer{
+    background-color: RGB(238,238,238);
+}
+
+.custom-carousel {
+    width: 75% !important;   /* Ajusta este valor según el tamaño deseado */
+    height: auto ;
+}
+.custom-carousel .carousel-inner img {
+    height: 900px ; /* Ajusta este valor según el tamaño deseado */
+    object-fit: cover ;
+}
+
+.formulario{
+    background-color: RGB(42,42,42)!important;
+}
+
+.fondo-title{
+    margin-top: 10px;
+    height: 35px;
+    margin-bottom: 15px;
+}
+
+.fondo-title-1{
+    width: 200px;
+}
+
+.fondo-title-2{
+    width: 250px;
+}
+
+.txt-area{
+    resize: none;
+    height: 150px;
+}
+
+.bg-white{
+    background-color: #ffffff !important;
+    border-right: 1px solid RGB(222,226,230) !important;
+    border-top: 1px solid RGB(222,226,230) !important;
+    border-bottom: 1px solid RGB(222,226,230) !important;
+}
+
+/*Modificar carrusel*/
+.slide{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.slide img{
+    height: 65vh;
+}
+
+.carousel-control-prev-icon , .carousel-control-next-icon{
+    width: 60px !important;
+    height: 60px !important;
+}
+
+/*SLIDER INFINITO*/
+.slimer{
+    width: 75vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid RGB(238,238,238);
+    border-radius: 18px;
+}
+
+.slimer > .slime-track{
+    display: flex;
+    animation: scroll 40s linear infinite;
+    width: calc(450px * 14);
+}
+
+.slimer > .slim{
+    width: 450px;
+}
+    
+.slimer >.slim >img{
+    width: 100%;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-450px * 7));
+    }
+}
+
+/*FONDO DE LAS CARDS*/
+
+.card-fond{
+    background-color: RGB(238,238,238);
+    width: 450px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.card-fond:first-child{
+    margin-left: 0px;
+}
